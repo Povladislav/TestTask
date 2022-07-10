@@ -1,0 +1,7 @@
+{% extends "Link/base.html" %}
+{% block content %}
+<h2 style="width: 50%; position: fixed;top:25%;left: 25%">You have been logged out</h2>
+       <div class ='border-top pt-3' style="width: 50%; position: fixed;top:30%;left: 25%">
+        <small class ='text-muted'><a  href ='{% url "login"%}'>Log In again</a></small>
+       </div>
+{% endblock content %}
